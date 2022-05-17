@@ -1,7 +1,0 @@
-com/solarwinds/msp/ncentral/eventproduction/publisher/relay/grpc/BatchSenderTest.class
-com/solarwinds/msp/ncentral/eventproduction/publisher/relay/grpc/RequestBatcherTest.class
-com/solarwinds/msp/ncentral/eventproduction/publisher/relay/grpc/BatchSenderCircuitBreakerTest.class
-com/solarwinds/msp/ncentral/eventproduction/publisher/relay/configuration/StatusRuntimeExceptionHandlerTest.class
-com/solarwinds/msp/ncentral/eventproduction/publisher/relay/grpc/PublisherProviderTest.class
-com/solarwinds/msp/ncentral/eventproduction/publisher/relay/MspRelayHealthCheckTest.class
-com/solarwinds/msp/ncentral/eventproduction/publisher/relay/MspRelayPublisherTest.class

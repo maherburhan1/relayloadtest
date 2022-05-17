@@ -1,7 +1,0 @@
-com/solarwinds/msp/ncentral/eventproduction/api/publisher/PublishingContextTest.class
-com/solarwinds/msp/ncentral/eventproduction/api/service/tracking/ComponentStatusServiceTest.class
-com/solarwinds/msp/ncentral/eventproduction/api/service/tracking/EventingConfigurationChangeTest.class
-com/solarwinds/msp/ncentral/eventproduction/api/service/tracking/EventingControlServiceTest.class
-com/solarwinds/msp/ncentral/eventproduction/api/service/publisher/CircuitBreakerResultTest.class
-com/solarwinds/msp/ncentral/eventproduction/api/service/tracking/ScrapingConfigurationChangeTest.class
-com/solarwinds/msp/ncentral/eventproduction/api/service/failure/FailureNotificationServiceTest.class

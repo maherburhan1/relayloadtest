@@ -44,7 +44,7 @@ public class MspRelaySampleExceutor {
     private void excute() {
         int totalNumberOfMessages = 0;
         logger.info("Initializing thread pool to {} threads", numberOfThreads);
-        
+
         ThreadPoolExecutor threadPool = (ThreadPoolExecutor) Executors.newFixedThreadPool(numberOfThreads);
 
         List<MspRelaySampleClient> clientArray = new ArrayList<MspRelaySampleClient>();
