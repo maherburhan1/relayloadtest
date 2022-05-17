@@ -1,0 +1,70 @@
+
+L
+java:S3416"6Update this logger to use "DirectKafkaProducer.class".(±…ì‘
+V	java:S125!"<This block of commented-out lines of code should be removed.(ó´‡ùÿÿÿÿ
+Q	java:S125P"<This block of commented-out lines of code should be removed.(ÅÂ¯
+P	java:S125S"<This block of commented-out lines of code should be removed.(éÉÛO
+œ
+java:S1130c"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(ÃÂ¾ÿûÿÿÿÿ
+’
+java:S1130c"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ÃÂ¾ÿûÿÿÿÿ
+@
+java:S1181s"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+r
+java:S2737t"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ĞëÒıÿÿÿÿ
+—
+java:S1130z"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(›ƒˆ‹
+
+java:S1130z"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(›ƒˆ‹
+V	java:S125}"<This block of commented-out lines of code should be removed.(¾ÿôèıÿÿÿÿ
+A
+java:S1181‘"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+=
+java:S1481‹"&Remove this unused "f" local variable.(ƒ¢Ü
+n
+java:S3776œ"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ
+R
+java:S1854";Remove this useless assignment to local variable "endTime".(¿«Ï¼
+S
+java:S1854"=Remove this useless assignment to local variable "startTime".(¶®¦i
+T
+java:S1854¯"=Remove this useless assignment to local variable "startTime".(§µ¤«
+P
+java:S2130¢"9Use "Integer.parseInt" for this string-to-int conversion.(’à…Î
+U
+java:S2130§"9Use "Integer.parseInt" for this string-to-int conversion.(ˆ¼Ú¢ùÿÿÿÿ
+O
+java:S2130«"9Use "Integer.parseInt" for this string-to-int conversion.(Ü²Í
+K
+java:S1481»"/Remove this unused "clientMsgs" local variable.(³Îáûÿÿÿÿ
+u
+java:S2142Ä"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+R	java:S125Á"<This block of commented-out lines of code should be removed.(éò¦ş
+]
+java:S3457Ò"AFormat specifiers should be used instead of string concatenation.(óŠêğıÿÿÿÿ
+\
+java:S2147æ"ECombine this catch with the one at line 228, which has the same body.(ä ¹€
+u
+java:S2142æ"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+a
+java:S2147ü"ECombine this catch with the one at line 250, which has the same body.(åşŒóùÿÿÿÿ
+u
+java:S2142ú"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+o
+java:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(Åà™”
+t
+java:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(äƒÒ£üÿÿÿÿ
+u
+java:S2293Œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(äƒÒ£üÿÿÿÿ
+u
+java:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ¨ç€ÿÿÿÿÿ
+m
+java:S1192¤"QDefine a constant instead of duplicating this literal "numberOfMessages" 3 times.(ü›İüÿÿÿÿ
+l
+java:S1192Ÿ"PDefine a constant instead of duplicating this literal "numberOfThreads" 3 times.(ªĞ½Âüÿÿÿÿ
+e
+java:S1192¨"NDefine a constant instead of duplicating this literal "transactional" 3 times.(£ó‚Ÿ
+v
+java:S1488Z"`Immediately return this expression instead of assigning it to the temporary variable "producer".(Åà™”
+x
+java:S2629Ò"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(óŠêğıÿÿÿÿ

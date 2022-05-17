@@ -1,0 +1,87 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>msp.event.schemas</groupId>
+  <artifactId>solarwinds-protobuf-java</artifactId>
+  <version>local</version>
+  <packaging>jar</packaging>
+  <profiles>
+    <profile>
+      <id>MSP_Solarwinds</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <repo-id>msp-artifactory</repo-id>
+        <repo-name>mspsolarwinds-releases</repo-name>
+        <repo-url>https://mspsolarwinds.jfrog.io/mspsolarwinds/msp-java-libs</repo-url>
+        <snapshotrepo-name>mspsolarwinds-snapshots</snapshotrepo-name>
+        <snapshotrepo-url>https://mspsolarwinds.jfrog.io/mspsolarwinds/msp-java-libs-snapshot</snapshotrepo-url>
+      </properties>
+    </profile>
+    <profile>
+      <id>MSP_Ottawa</id>
+      <properties>
+        <repo-id>swi_art_rel</repo-id>
+        <repo-name>SWI Artifactory Release</repo-name>
+        <repo-url>http://dev-artifactory.dev.local/artifactory/msp-java-libs</repo-url>
+        <snapshotrepo-name>SWI Artifactory Release Snapshots</snapshotrepo-name>
+        <snapshotrepo-url>http://dev-artifactory.dev.local/artifactory/msp-java-libs-snapshot</snapshotrepo-url>
+      </properties>
+    </profile>
+  </profiles>
+  <build>
+    <resources>
+      <resource>
+        <directory>../../protobufs</directory>
+        <includes>
+          <include>**/*.proto</include>
+        </includes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.0.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>versions-maven-plugin</artifactId>
+        <version>2.7</version>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <repository>
+      <id>${repo-id}</id>
+      <name>${repo-name}</name>
+      <url>${repo-url}</url>
+    </repository>
+    <snapshotRepository>
+      <id>${repo-id}</id>
+      <name>${snapshotrepo-name}</name>
+      <url>${snapshotrepo-url}</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.11.4</version>
+    </dependency>
+  </dependencies>
+</project>

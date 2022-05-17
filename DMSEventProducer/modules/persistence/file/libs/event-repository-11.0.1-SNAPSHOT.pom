@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ############################################################################################################## -->
+<!-- The pom file is sorted. Dependencies are sorted alphabetically. -->
+<!-- Make sure you run 'mvn sortpom:sort' when modifying this file. -->
+<!-- ############################################################################################################## -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.solarwinds.msp</groupId>
+		<artifactId>ncentral-event-adapter</artifactId>
+		<version>11.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<groupId>com.solarwinds.msp.ncentral.eventproduction.adapter</groupId>
+	<artifactId>event-repository</artifactId>
+	<packaging>pom</packaging>
+	<name>MSP EventBus Repository</name>
+	<description>This module contains artifacts from MSP Artifactory and installs them into local Maven repository so that they can be used by other modules.</description>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>com.solarwinds.msp:msp-eventbus</id>
+						<phase>package</phase>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<configuration>
+							<file>${project.basedir}/com/solarwinds/msp/msp-eventbus/0.5.1/msp-eventbus-0.5.1.pom</file>
+							<pomFile>${project.basedir}/com/solarwinds/msp/msp-eventbus/0.5.1/msp-eventbus-0.5.1.pom</pomFile>
+							<generatePom>false</generatePom>
+						</configuration>
+					</execution>
+					<execution>
+						<id>com.solarwinds.msp:msp-eventbus-client</id>
+						<phase>package</phase>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<configuration>
+							<file>${project.basedir}/com/solarwinds/msp/msp-eventbus-client/0.5.1/msp-eventbus-client-0.5.1.jar</file>
+							<pomFile>${project.basedir}/com/solarwinds/msp/msp-eventbus-client/0.5.1/msp-eventbus-client-0.5.1.pom</pomFile>
+						</configuration>
+					</execution>
+					<execution>
+						<id>com.solarwinds.msp:msp-parent-pom</id>
+						<phase>package</phase>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<configuration>
+							<file>${project.basedir}/com/solarwinds/msp/msp-parent-pom/0.0.0/msp-parent-pom-0.0.0.pom</file>
+							<pomFile>${project.basedir}/com/solarwinds/msp/msp-parent-pom/0.0.0/msp-parent-pom-0.0.0.pom</pomFile>
+							<generatePom>false</generatePom>
+						</configuration>
+					</execution>
+					<execution>
+						<id>msp.event.schemas:solarwinds-protobuf-java</id>
+						<phase>package</phase>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<configuration>
+							<file>${project.basedir}/msp/event/schemas/solarwinds-protobuf-java/local/solarwinds-protobuf-java-local.jar</file>
+							<pomFile>${project.basedir}/msp/event/schemas/solarwinds-protobuf-java/local/solarwinds-protobuf-java-local.pom</pomFile>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

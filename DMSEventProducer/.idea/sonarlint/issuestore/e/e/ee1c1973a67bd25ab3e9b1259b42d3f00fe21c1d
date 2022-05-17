@@ -1,0 +1,18 @@
+
+h
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(“–ış
+J
+java:S1481@"/Remove this unused "clientMsgs" local variable.(³Îáûÿÿÿÿ
+t
+java:S2142N"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+Q	java:S125K"<This block of commented-out lines of code should be removed.(éò¦ş
+\
+java:S3457Z"AFormat specifiers should be used instead of string concatenation.(óŠêğıÿÿÿÿ
+X
+java:S1854e"=Remove this useless assignment to local variable "startTime".(ÚÉ¬üÿÿÿÿ
+I
+java:S1481e".Remove this unused "startTime" local variable.(ÚÉ¬üÿÿÿÿ
+t
+java:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(İö ıÿÿÿÿ
+w
+java:S2629Z"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(óŠêğıÿÿÿÿ

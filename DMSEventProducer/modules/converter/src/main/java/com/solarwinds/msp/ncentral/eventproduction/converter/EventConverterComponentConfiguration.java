@@ -1,0 +1,13 @@
+package com.solarwinds.msp.ncentral.eventproduction.converter;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+
+/**
+ * This class represents the Spring configuration for the MSP Event Converter module.
+ */
+@Configuration
+@ComponentScan(basePackages = {"com.solarwinds.msp.ncentral.eventproduction.converter"}, lazyInit = true)
+@Lazy
+public class EventConverterComponentConfiguration {}

@@ -1,0 +1,154 @@
+
+v	java:S115I"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(úó×Ø8€®¯¸ˆ0
+{	java:S115j"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×Õ¨ùÿÿÿÿ8€®¯¸ˆ0
+|	java:S115¼"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷Ï‹—şÿÿÿÿ8€®¯¸ˆ0
+v	java:S115ï"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®ñóR8€®¯¸ˆ0
+w	java:S115ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú”ªİ8€®¯¸ˆ0
+|	java:S115œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»°øüùÿÿÿÿ8€®¯¸ˆ0
+|	java:S115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šÁÓøÿÿÿÿ8€®¯¸ˆ0
+w	java:S115Õ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´£ß8®¯¸ˆ0
+|	java:S115æ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ìî„µûÿÿÿÿ8®¯¸ˆ0
+|	java:S115¸"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»˜éÒûÿÿÿÿ8®¯¸ˆ0
+w	java:S115Ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğŒêÅ8®¯¸ˆ0
+v	java:S115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šÿ¹v8®¯¸ˆ0
+|	java:S115ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†£§¬ıÿÿÿÿ8®¯¸ˆ0
+|	java:S115†"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õÛüÿÿÿÿ8®¯¸ˆ0
+|	java:S115—"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÙÀ¢Åşÿÿÿÿ8®¯¸ˆ0
+|	java:S115©"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŠªéÍşÿÿÿÿ8®¯¸ˆ0
+|	java:S115Å"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò–æÿùÿÿÿÿ8®¯¸ˆ0
+~
+java:S3008J"aRename this field "ValidClientEventObject" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç“¾ı8‚®¯¸ˆ0
+b
+java:S1068š"?Remove this unused "EVENTING_CONFIG_CUSTOMER_ID" private field.(ûíä„ÿÿÿÿÿ8Ä®¯¸ˆ0
+e
+java:S1192w"HDefine a constant instead of duplicating this literal "Boolean" 4 times.(äÔĞ˜8Æ®¯¸ˆ0
+c
+java:S1192"FDefine a constant instead of duplicating this literal "Float" 6 times.(Üúÿ8Æ®¯¸ˆ0
+m
+java:S1192¤"JDefine a constant instead of duplicating this literal "Timestamp" 4 times.(Ø–äıÿÿÿÿ8Æ®¯¸ˆ0
+|
+java:S1192Ú"YUse already-defined constant 'BIZAPPS_CUSTOMER_ID' instead of duplicating its value here.(˜‰İÛûÿÿÿÿ8Æ®¯¸ˆ0
+|
+java:S1192E"ZUse already-defined constant 'NCENTRAL_SERVER_GUID' instead of duplicating its value here.(ÿ¡ğ™ûÿÿÿÿ8Ç®¯¸ˆ0
+j
+java:S1192r"HDefine a constant instead of duplicating this literal "Integer" 6 times.(©·µ¥üÿÿÿÿ8Ç®¯¸ˆ0
+y
+java:S1104)"\Make validDeviceEvent a static final constant or non-public and provide accessors if needed.(şÙ»Ş8Ë®¯¸ˆ0
+„
+java:S1104*"bMake validDeviceEventObject a static final constant or non-public and provide accessors if needed.(¿ùÙúÿÿÿÿ8Ë®¯¸ˆ0
+
+java:S1104J"bMake ValidClientEventObject a static final constant or non-public and provide accessors if needed.(ç“¾ı8Ë®¯¸ˆ0
+
+java:S1104l"nMake clientMissingCustomeridEventObject a static final constant or non-public and provide accessors if needed.(ÏÜ ûùÿÿÿÿ8Ë®¯¸ˆ0
+y
+java:S1104½"VMake userObject a static final constant or non-public and provide accessors if needed.(È‡Ï·ÿÿÿÿÿ8Ë®¯¸ˆ0
+|
+java:S1104ß"YMake taskThreshold a static final constant or non-public and provide accessors if needed.(ë”¥ªùÿÿÿÿ8Ë®¯¸ˆ0
+‚
+java:S1104à"_Make taskThresholdObject a static final constant or non-public and provide accessors if needed.(†½Ä¯úÿÿÿÿ8Ë®¯¸ˆ0
+|
+java:S1104ğ"^Make ruleCustomerObject a static final constant or non-public and provide accessors if needed.(½Ø²ç8Ë®¯¸ˆ0
+
+java:S1104ş"cMake firewallIncidentsObject a static final constant or non-public and provide accessors if needed.(–ßœê8Ë®¯¸ˆ0
+o
+java:S1104µ"QMake patch a static final constant or non-public and provide accessors if needed.(Êÿ û8Ë®¯¸ˆ0
+u
+java:S1104¶"WMake patchObject a static final constant or non-public and provide accessors if needed.(Äà±¿8Ë®¯¸ˆ0
+
+java:S1104Î"^Make patchProductObject a static final constant or non-public and provide accessors if needed.(õ¼ƒÔùÿÿÿÿ8Ë®¯¸ˆ0
+}
+java:S1104Ö"_Make systemServiceObject a static final constant or non-public and provide accessors if needed.(Çãİá8Ë®¯¸ˆ0
+‚
+java:S1104è"dMake genericServiceDataObject a static final constant or non-public and provide accessors if needed.(ãŠ…´8Ì®¯¸ˆ0
+€
+java:S1104¹"bMake assetMediaAccessObject a static final constant or non-public and provide accessors if needed.(…¤×Ÿ8Ì®¯¸ˆ0
+€
+java:S1104È"]Make deviceAssetObject a static final constant or non-public and provide accessors if needed.(Ú¸µÃúÿÿÿÿ8Ì®¯¸ˆ0
+‚
+java:S1104è"_Make logicalDeviceObject a static final constant or non-public and provide accessors if needed.(ë…ïßûÿÿÿÿ8Ì®¯¸ˆ0
+{
+java:S1104ù"]Make mappedDriveObject a static final constant or non-public and provide accessors if needed.(œÒ¯8Ì®¯¸ˆ0
+ƒ
+java:S1104‡"`Make networkAdapterObject a static final constant or non-public and provide accessors if needed.(îİ¢ÿıÿÿÿÿ8Ì®¯¸ˆ0
+‹
+java:S1104™"mMake networkAdapterConfigurationObject a static final constant or non-public and provide accessors if needed.(Õ¨ûÚ8Ì®¯¸ˆ0
+
+java:S1104ª"\Make portStatusObject a static final constant or non-public and provide accessors if needed.(¸’Î›ûÿÿÿÿ8Ì®¯¸ˆ0
+w
+java:S1104¶"YMake sharedFolders a static final constant or non-public and provide accessors if needed.(±»æ¼8Ì®¯¸ˆ0
+‚
+java:S1104·"_Make sharedFoldersObject a static final constant or non-public and provide accessors if needed.(õ«Øıÿÿÿÿ8Ì®¯¸ˆ0
+„
+java:S1104Æ"aMake videoControllerObject a static final constant or non-public and provide accessors if needed.(ÓòÒÛúÿÿÿÿ8Ì®¯¸ˆ0
+x
+java:S1104Ö"UMake appliance a static final constant or non-public and provide accessors if needed.(˜œµÂúÿÿÿÿ8Ì®¯¸ˆ0
+y
+java:S1104×"[Make applianceObject a static final constant or non-public and provide accessors if needed.(œ»ì€8Ì®¯¸ˆ0
+}
+java:S1104Ÿ"_Make notificationProfile a static final constant or non-public and provide accessors if needed.(ß­æç8Ì®¯¸ˆ0
+ˆ
+java:S1104¡"eMake notificationProfileObject a static final constant or non-public and provide accessors if needed.(³öşùÿÿÿÿ8Ì®¯¸ˆ0
+S
+java:S1444)"6Make this "public static validDeviceEvent" field final(şÙ»Ş8Ì®¯¸ˆ0
+^
+java:S1444*"<Make this "public static validDeviceEventObject" field final(¿ùÙúÿÿÿÿ8Ì®¯¸ˆ0
+Y
+java:S1444J"<Make this "public static ValidClientEventObject" field final(ç“¾ı8Ì®¯¸ˆ0
+j
+java:S1444l"HMake this "public static clientMissingCustomeridEventObject" field final(ÏÜ ûùÿÿÿÿ8Ì®¯¸ˆ0
+S
+java:S1444½"0Make this "public static userObject" field final(È‡Ï·ÿÿÿÿÿ8Í®¯¸ˆ0
+V
+java:S1444ß"3Make this "public static taskThreshold" field final(ë”¥ªùÿÿÿÿ8Í®¯¸ˆ0
+\
+java:S1444à"9Make this "public static taskThresholdObject" field final(†½Ä¯úÿÿÿÿ8Í®¯¸ˆ0
+V
+java:S1444ğ"8Make this "public static ruleCustomerObject" field final(½Ø²ç8Í®¯¸ˆ0
+[
+java:S1444ş"=Make this "public static firewallIncidentsObject" field final(–ßœê8Í®¯¸ˆ0
+I
+java:S1444µ"+Make this "public static patch" field final(Êÿ û8Í®¯¸ˆ0
+O
+java:S1444¶"1Make this "public static patchObject" field final(Äà±¿8Í®¯¸ˆ0
+[
+java:S1444Î"8Make this "public static patchProductObject" field final(õ¼ƒÔùÿÿÿÿ8Í®¯¸ˆ0
+W
+java:S1444Ö"9Make this "public static systemServiceObject" field final(Çãİá8Í®¯¸ˆ0
+\
+java:S1444è">Make this "public static genericServiceDataObject" field final(ãŠ…´8Í®¯¸ˆ0
+Z
+java:S1444¹"<Make this "public static assetMediaAccessObject" field final(…¤×Ÿ8Í®¯¸ˆ0
+Z
+java:S1444È"7Make this "public static deviceAssetObject" field final(Ú¸µÃúÿÿÿÿ8Í®¯¸ˆ0
+\
+java:S1444è"9Make this "public static logicalDeviceObject" field final(ë…ïßûÿÿÿÿ8Í®¯¸ˆ0
+U
+java:S1444ù"7Make this "public static mappedDriveObject" field final(œÒ¯8Í®¯¸ˆ0
+]
+java:S1444‡":Make this "public static networkAdapterObject" field final(îİ¢ÿıÿÿÿÿ8Í®¯¸ˆ0
+e
+java:S1444™"GMake this "public static networkAdapterConfigurationObject" field final(Õ¨ûÚ8Í®¯¸ˆ0
+Y
+java:S1444ª"6Make this "public static portStatusObject" field final(¸’Î›ûÿÿÿÿ8Í®¯¸ˆ0
+Q
+java:S1444¶"3Make this "public static sharedFolders" field final(±»æ¼8Í®¯¸ˆ0
+\
+java:S1444·"9Make this "public static sharedFoldersObject" field final(õ«Øıÿÿÿÿ8Í®¯¸ˆ0
+^
+java:S1444Æ";Make this "public static videoControllerObject" field final(ÓòÒÛúÿÿÿÿ8Í®¯¸ˆ0
+R
+java:S1444Ö"/Make this "public static appliance" field final(˜œµÂúÿÿÿÿ8Í®¯¸ˆ0
+S
+java:S1444×"5Make this "public static applianceObject" field final(œ»ì€8Í®¯¸ˆ0
+W
+java:S1444Ÿ"9Make this "public static notificationProfile" field final(ß­æç8Í®¯¸ˆ0
+b
+java:S1444¡"?Make this "public static notificationProfileObject" field final(³öşùÿÿÿÿ8Î®¯¸ˆ0
+f
+java:S2184¦"CCast one of the operands of this subtraction operation to a "long".(–„½êÿÿÿÿÿ8Ğ®¯¸ˆ0
+a
+java:S2184¬"CCast one of the operands of this subtraction operation to a "long".(‰ğèü8Ğ®¯¸ˆ0
+f
+java:S2184¢"CCast one of the operands of this subtraction operation to a "long".(–„½êÿÿÿÿÿ8Ğ®¯¸ˆ0
+a
+java:S2184¨"CCast one of the operands of this subtraction operation to a "long".(‰ğèü8Ğ®¯¸ˆ0

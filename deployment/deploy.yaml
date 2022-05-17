@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: relay
+  name: relayloadtest
+  labels:
+    name: relayloadtest
+spec:
+  replicas: 12
+  selector:
+    matchLabels:
+      name: relayloadtest
+  template:
+    metadata:
+      labels:
+        name: relayloadtest
+    spec:
+      containers:
+        - name: relayloadtest
+          image: 898343908933.dkr.ecr.eu-west-1.amazonaws.com/msp-relay:relayloadtest-v7
+          env:
+          - name: numberOfThreads
+            value: "100"
+          - name: numberOfMessages
+            value: "100"
+          - name: numberOfBatchesPerThread
+            value: "50"
+          - name: eventType
+            value: "DEVICE"
+          - name: DserverCertificate
+            value: "./certs/develop_vault_built_with_solar.pem"
+          - name: host
+            value: "us.stg.relay.system-monitor.com"
+          ports:
+            - containerPort: 9891

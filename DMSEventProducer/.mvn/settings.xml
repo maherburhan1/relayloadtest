@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>n-central--nabledev_maven_artifacts</id>
+            <username>aws</username>
+            <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+        </server>
+    </servers>
+    <mirrors>
+        <mirror>
+            <id>n-central--nabledev_maven_artifacts</id>
+            <name>n-central--nabledev_maven_artifacts</name>
+            <url>https://n-central-362695845571.d.codeartifact.us-east-1.amazonaws.com/maven/nabledev_maven_artifacts/</url>
+            <mirrorOf>nabledev_maven_artifacts</mirrorOf>
+        </mirror>
+    </mirrors>
+</settings>

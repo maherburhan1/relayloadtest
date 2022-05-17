@@ -1,0 +1,58 @@
+
+o	java:S1155"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(úó×Ø
+t	java:S115V"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×Õ¨ùÿÿÿÿ
+u	java:S115¨"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(÷Ï‹—şÿÿÿÿ
+u	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ¡¡Õûÿÿÿÿ
+p	java:S115è"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ú”ªİ
+w
+java:S30086"aRename this field "ValidClientEventObject" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç“¾ı
+P
+java:S1118":Add a private constructor to hide the implicit public one.(óöˆ
+
+java:S1192Æ"eDefine a constant instead of duplicating this literal "aaea6111-b13f-462b-9385-4f3baa7f0ccc" 4 times.(˜‰İÛûÿÿÿÿ
+€
+java:S11921"eDefine a constant instead of duplicating this literal "225ed5bb-9e8e-4ad5-aa8c-7a018dc5ffa5" 7 times.(ÿ¡ğ™ûÿÿÿÿ
+c
+java:S1192^"HDefine a constant instead of duplicating this literal "Integer" 3 times.(©·µ¥üÿÿÿÿ
+[
+java:S1192|"FDefine a constant instead of duplicating this literal "Float" 3 times.(Üúÿ
+r
+java:S1104"\Make validDeviceEvent a static final constant or non-public and provide accessors if needed.(şÙ»Ş
+}
+java:S1104"bMake validDeviceEventObject a static final constant or non-public and provide accessors if needed.(¿ùÙúÿÿÿÿ
+x
+java:S11046"bMake ValidClientEventObject a static final constant or non-public and provide accessors if needed.(ç“¾ı
+‰
+java:S1104X"nMake clientMissingCustomeridEventObject a static final constant or non-public and provide accessors if needed.(ÏÜ ûùÿÿÿÿ
+r
+java:S1104©"VMake userObject a static final constant or non-public and provide accessors if needed.(È‡Ï·ÿÿÿÿÿ
+u
+java:S1104Ë"YMake taskThreshold a static final constant or non-public and provide accessors if needed.(ë”¥ªùÿÿÿÿ
+{
+java:S1104Ì"_Make taskThresholdObject a static final constant or non-public and provide accessors if needed.(†½Ä¯úÿÿÿÿ
+u
+java:S1104Ü"^Make ruleCustomerObject a static final constant or non-public and provide accessors if needed.(½Ø²ç
+z
+java:S1104ê"cMake firewallIncidentsObject a static final constant or non-public and provide accessors if needed.(–ßœê
+L
+java:S1444"6Make this "public static validDeviceEvent" field final(şÙ»Ş
+W
+java:S1444"<Make this "public static validDeviceEventObject" field final(¿ùÙúÿÿÿÿ
+R
+java:S14446"<Make this "public static ValidClientEventObject" field final(ç“¾ı
+c
+java:S1444X"HMake this "public static clientMissingCustomeridEventObject" field final(ÏÜ ûùÿÿÿÿ
+L
+java:S1444©"0Make this "public static userObject" field final(È‡Ï·ÿÿÿÿÿ
+O
+java:S1444Ë"3Make this "public static taskThreshold" field final(ë”¥ªùÿÿÿÿ
+U
+java:S1444Ì"9Make this "public static taskThresholdObject" field final(†½Ä¯úÿÿÿÿ
+O
+java:S1444Ü"8Make this "public static ruleCustomerObject" field final(½Ø²ç
+T
+java:S1444ê"=Make this "public static firewallIncidentsObject" field final(–ßœê
+_
+java:S2184’"CCast one of the operands of this subtraction operation to a "long".(–„½êÿÿÿÿÿ
+Z
+java:S2184˜"CCast one of the operands of this subtraction operation to a "long".(‰ğèü

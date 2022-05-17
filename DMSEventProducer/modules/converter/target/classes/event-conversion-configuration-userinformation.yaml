@@ -1,0 +1,136 @@
+#####     This is the main entity.  Everything derives form this.
+# conversions:
+#####               This is the name of the protobuf entity that is to be created.
+#####               If it is a child entity of a parent then a link such as this should be used after the colon -> "&EntityName"
+#     "EntityName":
+#####                 This property must be included to point code to the fully qualified path of the protobuf class.
+#         entityPath: "The.Fully.Qualified.Path.Of.The.Protobuf.Class"
+#####             All tables capable of generating this entity are listed under this. This is mandatory for entities that are not children.
+#         tables:
+#             "EventTable1":
+#####                  The table fields used by protocol buffer generation code follow this.
+#                 joinToCustomer:
+#####                  Any additional tables that the base table needs to join to in order to get to a customerId field.
+#####                  Intermediary join tables can be aliased as anything. i.e. jointable1
+#####                  The final table that contains the customerId needs to be aliased as "custTable"
+#                 whereToCustomer:
+#####                  These are the where criteria specific to the join criteria.
+#####                  The base table is always aliased as "mainTable" int the case of a single simple join the where criteria would be as follows:
+#####                  " maintable.linkfield = custTable.linkfield "
+#####                  If there are multiple joins you would as those as well. i.e. " maintable.linkfield = jointtbl1.linkfield and jointtbl1.anotherlinkfield = custTable.anotherlinkfield "
+#                 incrementalLoadDate:
+#####                         The field name for the column to be used for incremental data loads when scraping data.  The default is "lastupdated"
+#                 isTimeSeries: "false"
+#####                         The default for this optional property is "false".
+#####                         If you need to state otherwise, populate this entry with the value required.
+#                 fields:
+#####                         All fields that are required for protobuf generation need to be listed.
+#####                         This is the name of the source field that is to be mapped.
+#                     "sourcefield1":
+#####                           The target field goes here.  Set a blank entry for the target field if the field is used but not mapped to a protobuf property.
+#                         targetField: "Target1"
+#####                           The default for this optional property is "false".
+#####                           If you need to state otherwise, populate this entry with the value required.
+#                         isMandatory: "false"
+#####                           The default for this optional property is "true".
+#####                           If you need to state otherwise, populate this entry with the value required.
+#                         isTracked: "true"
+#####     The table fields used by protocol buffer generation code follow this.
+#####     This entry is for default fields used by all tables used to generate the protobuf class and to define mapped fields for child entities.
+#         joinToCustomer:
+#####             Any additional tables that the base table needs to join to in order to get to a customerId field.
+#####             Intermediary join tables can be aliased as anything. i.e. jointable1
+#####             The final table that contains the customerId needs to be aliased as "custTable"
+#         whereToCustomer:
+#####             These are the where criteria specific to the join criteria.
+#####             The base table is always aliased as "mainTable" int the case of a single simple join the where criteria would be as follows:
+#####             " maintable.linkfield = custTable.linkfield "
+#####             If there are multiple joins you would as those as well. i.e. " maintable.linkfield = jointable1.linkfield and jointable1.anotherlinkfield = custTable.anotherlinkfield "
+#         incrementalLoadDate:
+#####             The field name for the column to be used for incremental data loads when scraping data.  The default is "lastupdated"
+#         isTimeSeries: "false"
+#####             The default for this optional property is "false".
+#####             If you need to state otherwise, populate this entry with the value required.
+#         fields:
+#####             All fields that are required for protobuf generation need to be listed.
+#####             This is the name of the source fied that is to be mapped. The same conditions and rules apply for these field properties as above.
+#             "defaultsourcefield1":
+#                 targetField: "Target2"
+#                 isMandatory: "false"
+#                 isTracked: "true"
+#####             All child entities that are required for protobuf generation need to be listed here.
+#         childEntities:
+#####             The name of the child entity to be generated. *Note the astrix linking to the actual entity on this page.
+#             - *ChildLink
+conversions:
+  "Address": &Address
+    entityPath: "com.solarwinds.msp.ncentral.proto.entity.entity.AddressOuterClass.Address"
+    fields:
+      "street1":
+        targetField: "Address1"
+      "street2":
+        targetField: "Address2"
+      "city":
+        targetField: "City"
+      "stateprov":
+        targetField: "StateProvince"
+      "country":
+        targetField: "Country"
+      "postalcode":
+        targetField: "PostalCode"
+  "Contact": &Contact
+    entityPath: "com.solarwinds.msp.ncentral.proto.entity.entity.ContactOuterClass.Contact"
+    fields:
+      "contactdepartment":
+        targetField: "Department"
+      "contactemail":
+        targetField: "Email"
+      "contacttitle":
+        targetField: "Title"
+      "contactfirstname":
+        targetField: "FirstName"
+      "contactlastname":
+        targetField: "LastName"
+      "contactphonenumber":
+        targetField: "PhoneNumber"
+      "department":
+        targetField: "Department"
+      "email1":
+        targetField: "Email"
+      "title":
+        targetField: "Title"
+      "firstname":
+        targetField: "FirstName"
+      "lastname":
+        targetField: "LastName"
+      "phone1":
+        targetField: "PhoneNumber"
+  "Users":
+    entityPath: "com.solarwinds.msp.ncentral.proto.entity.entity.UsersOuterClass.Users"
+    tables:
+      "luser":
+        fields:
+          "userid":
+            targetField: "UserId"
+            isMandatory: true
+          "username":
+            targetField: "UserName"
+            isMandatory: true
+          "description":
+            targetField: "Description"
+          "customerid":
+            targetField: "ClientId"
+            isMandatory: true
+          "isenabled":
+            targetField: "Enabled"
+            isMandatory: true
+          "deleted":
+            targetField: "Deleted"
+            isMandatory: true
+          "lastupdated":
+            targetField: "LastUpdated"
+            isMandatory: true
+            isTracked: false
+    childEntities:
+      - *Address
+      - *Contact

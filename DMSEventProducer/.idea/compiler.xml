@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eventbus-configuration" />
+        <module name="event-controller" />
+        <module name="event-persistence-file" />
+        <module name="event-sample-client" />
+        <module name="event-api-service" />
+        <module name="event-publisher-msp-relay" />
+        <module name="eventbus-client" />
+        <module name="event-api-entity" />
+        <module name="msp-relay-protobuf" />
+        <module name="event-converter" />
+        <module name="event-producer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
