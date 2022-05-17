@@ -248,6 +248,8 @@ public class MspRelaySampleClient implements Runnable {
             logger.info("eventType:\n{}", this.eventTypeList);
             logger.info("numberof batches:\n{}", this.numberOfBatchesPerThread);
             logger.info("number of messages:\n{}", this.numberOfMessages);
+            logger.info("Cannot parse system properties: {}" , MspRelaySampleConstant.HELP);
+            e.printStackTrace();
             throw new IllegalArgumentException("Cannot parse system properties. " + MspRelaySampleConstant.HELP, e);
         }
 

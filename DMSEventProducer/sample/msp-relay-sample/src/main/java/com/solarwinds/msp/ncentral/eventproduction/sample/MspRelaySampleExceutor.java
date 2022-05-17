@@ -44,6 +44,7 @@ public class MspRelaySampleExceutor {
     private void excute() {
         int totalNumberOfMessages = 0;
         logger.info("Initializing thread pool to {} threads", numberOfThreads);
+        
         ThreadPoolExecutor threadPool = (ThreadPoolExecutor) Executors.newFixedThreadPool(numberOfThreads);
 
         List<MspRelaySampleClient> clientArray = new ArrayList<MspRelaySampleClient>();
@@ -87,19 +88,19 @@ public class MspRelaySampleExceutor {
     public static void main(String[] arguments) {
         long startTime = System.currentTimeMillis();
         String numberOfThreads = System.getProperty("numberOfThreads");
-        if (StringUtils.isNotBlank(numberOfThreads)) {
+        if (StringUtils.isBlank(numberOfThreads)) {
             System.setProperty("numberOfThreads", "1");
         }
         String numberOfMessages = System.getProperty("numberOfMessages");
-        if (StringUtils.isNotBlank(numberOfMessages)) {
+        if (StringUtils.isBlank(numberOfMessages)) {
             System.setProperty("numberOfMessages", "1");
         }
         String numberOfBatchesPerThread = System.getProperty("numberOfBatchesPerThread");
-        if (StringUtils.isNotBlank(numberOfBatchesPerThread)) {
+        if (StringUtils.isBlank(numberOfBatchesPerThread)) {
             System.setProperty("numberOfBatchesPerThread", "1");
         }
         String eventType = System.getProperty("eventType");
-        if (StringUtils.isNotBlank(eventType)) {
+        if (StringUtils.isBlank(eventType)) {
             System.setProperty("eventType",
                     EventTypeEnum.GENERICSERVICEDATA.name() + ", " + EventTypeEnum.FIREWALLINCIDENTS.name());
         }

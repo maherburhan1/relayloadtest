@@ -80,7 +80,7 @@ public final class MspRelaySampleConstant {
      * Default path to the PEM Encoded X509 Server Certificate (Certificate Authority).
      */
     protected static final String DEFAULT_SERVER_CERTIFICATE_PATH =
-            "dms/service/src/com/nable/dms/config/develop_vault_built_with_solar.pem";
+            "sample/msp-relay-sample/dms/service/src/com/nable/dms/config/develop_vault_built_with_solar.pem";
 
     protected static final String HELP =
             "Use the following options:\n" + "\t-Dhost=<HOSTNAME>    - the MSP Relay Sample Server host to connect to\n"
@@ -89,8 +89,7 @@ public final class MspRelaySampleConstant {
                     + "\t-DclientKey=<FILE_PATH>    - the PEM Encoded PKCS#8 Client Private Key file path\n"
                     + "\t-DserverCertificate=<FILE_PATH>    - the PEM Encoded X509 Server Certificate file path\n"
                     + "\t-DoverrideAuthority=<HOSTNAME>    - the (partial) hostname used for override authority\n"
-                    + "\t-DeventType=<Event Type>(CLIENT, DEVICE, MISSINGCUSTOMER or ALL which include all\n"
-                    + "\t-Devent";
+                    + "\t-DeventType=<Event Type>(CLIENT, DEVICE, MISSINGCUSTOMER or ALL which include all\n";
 
     protected static final String BUSINESS_APPLICATIONS_CUSTOMER_ID =
             "BizApps ID: " + MspRelaySampleClient.class.getSimpleName();
